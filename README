@@ -40,7 +40,7 @@ SYNOPSIS
     Authen::NTLM::NTLMSSP_NEGOTIATE_NTLM |
     Authen::NTLM::NTLMSSP_NEGOTIATE_UNICODE |
     Authen::NTLM::NTLMSSP_REQUEST_TARGET; $auth_msg =
-    $client->auth_msg($nonec, $flags);
+    $client->auth_msg($nonce, $flags);
 
     # To parse a NTLM Response Packet ($flags, $lm_resp, $nt_resp,
     $user_domain, $username, $machine) = $server->parse_auth($auth_msg);
