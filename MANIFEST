@@ -2,4 +2,6 @@ MANIFEST
 README
 Makefile.PL
 lib/Authen/NTLM.pm
+lib/Authen/NTLM/HTTP.pm
 t/NTLM.t
+t/HTTP.t
